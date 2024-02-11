@@ -10,7 +10,7 @@ TabelaFinal, é criada no banco de dados contendo a soma do valor total de recei
 ## Dez maiores fontes de despesas
 ![image](https://github.com/linharesbruno/teste-engenheirodados-esfera/assets/131724502/3e1cb63d-5167-4f79-a99a-8b2eb15b2088)
 
-## construção logica 
+## Construção Logica 
 1- Comecei definindo o lugar que os arquivos iriam ser consumidos, neste caso foi um diretorio local.
 2- carreguei os arquivos e criei uma tabela para cada arquivo.
    [TabelaDespesas]
