@@ -20,8 +20,6 @@ A tabelaFinal é criada no banco de dados contendo a soma do valor total de rece
    
 3- Com as tabelas criadas do banco, usei Sql para manipular e analisar os dados.
 
-4- Para chegar a este código, realizei algumas pesquisas para compreender o melhor caminho. Como o projeto estava em um ambiente controlado, busquei uma abordagem mais simples, diferente de um cenário real.
-
 Observação: Optei por excluir as tabelas toda vez que o processo é executado, mas poderíamos usar a operação de merge. Dessa forma, inseriríamos apenas os dados que ainda não existem na tabela.
 
 ## Estrutura do codigo
@@ -30,9 +28,12 @@ Observação: Optei por excluir as tabelas toda vez que o processo é executado,
 
 2- Analisar e criar a tabela final
 
+3- Para chegar a este código, realizei algumas pesquisas para compreender o melhor caminho. Como o projeto estava em um ambiente controlado, busquei uma abordagem mais simples, diferente de um cenário real.
+
 3- Criar a Dag.
 
    1.load_and_export_task = carrega os arquivos e cria as duas tabelas
+   
    2.create_final_table_task = cria a tabela final
 
  
