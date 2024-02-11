@@ -12,9 +12,11 @@ TabelaFinal, é criada no banco de dados contendo a soma do valor total de recei
 
 ## Construção Logica 
 1- Comecei definindo o lugar que os arquivos iriam ser consumidos, neste caso foi um diretorio local.
+
 2- carreguei os arquivos e criei uma tabela para cada arquivo.
    [TabelaDespesas]
    [TabelaReceitas] 
+   
 3- Com as tabelas criadas, usei Sql para manipular e analisar os dados.
 
 4- Para chegar nesse codigo, realizei umas pesquisas para compreender o melhor caminho, como o projeto estava em um ambiente controlado, procurei fazer o simples, mas em um cenario real enfretaremos diversas variaveis que podem prejudicar nossa automatização, por isso é  necessario um mapeamento minucioso.
