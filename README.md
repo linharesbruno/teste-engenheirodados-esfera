@@ -16,6 +16,7 @@ A tabelaFinal é criada no banco de dados contendo a soma do valor total de rece
 1- Comecei definindo o local onde os arquivos seriam consumidos; neste caso, foi um diretório local.
 
 2- Carreguei os arquivos e criei as duas  tabelas .
+
    [TabelaDespesas]
    
    [TabelaReceitas] 
