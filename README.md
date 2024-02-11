@@ -27,8 +27,10 @@ A tabelaFinal é criada no banco de dados contendo a soma do valor total de rece
 
 2- Analisar e criar a tabela final
 
-3- criar a Dag
+3- criar a Dag.
+
    criei duas task.
+
    1.load_and_export_task = carrega os arquivos e cria as duas tabelas
    2.create_final_table_task = cria a tabela final
 
