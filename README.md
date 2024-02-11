@@ -21,6 +21,8 @@ A tabelaFinal é criada no banco de dados contendo a soma do valor total de rece
 
 4- Para chegar nesse codigo, realizei umas pesquisas para compreender o melhor caminho, como o projeto estava em um ambiente controlado, procurei fazer o simples, diferente de um cenario real.
 
+OBS. Optei por dropar as tabelas todo vez que o processo é rodado, mas poderiamos usar o merge, assim inseriamos apenas dados que ainda não existe na tabela.
+
 ## Estrutura do codigo
 
 1- carregar os arquivos e criar as duas tabelas.
