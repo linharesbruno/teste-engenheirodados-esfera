@@ -19,7 +19,7 @@ A tabelaFinal é criada no banco de dados contendo a soma do valor total de rece
    
 3- Com as tabelas criadas do banco, usei Sql para manipular e analisar os dados.
 
-4- Para chegar nesse codigo, realizei umas pesquisas para compreender o melhor caminho, como o projeto estava em um ambiente controlado, procurei fazer o simples, mas em um cenario real enfretaremos diversas variaveis que podem prejudicar nossa automatização, por isso é  necessario um mapeamento minucioso.
+4- Para chegar nesse codigo, realizei umas pesquisas para compreender o melhor caminho, como o projeto estava em um ambiente controlado, procurei fazer o simples, diferente de um cenario real.
 
 ## Estrutura do codigo
 
@@ -33,7 +33,6 @@ A tabelaFinal é criada no banco de dados contendo a soma do valor total de rece
    2.create_final_table_task = cria a tabela final
 
  
-
 ## Conclusão
 Este projeto oferece uma abordagem ETL para análise do orçamento do Estado de São Paulo em 2019, proporcionando insights valiosos sobre as receitas, despesas e as principais fontes de recursos e tipos de despesa. Certifique-se de adaptar as configurações conforme necessário para o seu ambiente específico.
 
