@@ -36,8 +36,7 @@ A tabelaFinal é criada no banco de dados contendo a soma do valor total de rece
 
  
 ## Conclusão
-Este projeto oferece uma abordagem ETL para análise do orçamento do Estado de São Paulo em 2019, proporcionando insights valiosos sobre as receitas, despesas e as principais fontes de recursos e tipos de despesa. Certifique-se de adaptar as configurações conforme necessário para o seu ambiente específico.
-
+Este projeto oferece uma abordagem ETL para análise do orçamento do Estado de São Paulo em 2019, proporcionando insights valiosos sobre as receitas, despesas e as principais fontes de recursos e tipos de despesa. 
 
 
 
