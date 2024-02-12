@@ -1,6 +1,7 @@
 # Projeto ETL - Análise de Orçamento do Estado de São Paulo (2019)
 
 ## Resultado 
+
 #### Tabela Final
 A tabelaFinal é criada no banco de dados contendo a soma do valor total de receita e despesa do Estado de São Paulo, agrupado pela fonte de recursos e tipo de despesa. Conforme o esperado.
 ![image](https://github.com/linharesbruno/teste-engenheirodados-esfera/assets/131724502/4365d6de-b2c7-4758-b1ad-b434bdf82182)
