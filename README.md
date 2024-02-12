@@ -31,15 +31,28 @@ Observação: Optei por excluir as tabelas toda vez que o processo é executado,
 
 2- Analisar e criar a tabela final
 
-3- Para chegar a este código, realizei algumas pesquisas para compreender o melhor caminho. Como o projeto estava em um ambiente controlado, busquei uma abordagem mais simples, diferente de um cenário real.
-
 3- Criar a Dag.
 
    1.load_and_export_task = carrega os arquivos e cria as duas tabelas
    
    2.create_final_table_task = cria a tabela final
 
- 
+## Observação final
+### Pontos não abordados devido ao ambiente controlado
+
+1- Exceções:
+
+Ao longo das etapas, tratei possíveis erros, com exceção do carregamento do arquivo, focando na validação da carga.
+
+2- segurança:
+As credenciais de conexão do banco estão expostas no script. Recomenda-se adotar práticas mais seguras, como a criptografia dos dados ou o uso de variáveis de ambiente.
+
+3-Desempenho:
+A criação das tabelas poderia ser otimizada com índices apropriados para aprimorar a performance das consultas.
+
+4-Testes Unitários
+Embora tenha validado as etapas, a ausência de testes unitários limita a garantia de robustez. Recomenda-se a implementação de testes para uma validação mais abrangente.
+
 ## Conclusão
 Este projeto oferece uma abordagem ETL para análise do orçamento do Estado de São Paulo em 2019, proporcionando insights valiosos sobre as receitas, despesas e as principais fontes de recursos e tipos de despesa. 
 
