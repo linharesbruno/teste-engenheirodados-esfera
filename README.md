@@ -40,17 +40,16 @@ Observação: Optei por excluir as tabelas toda vez que o processo é executado,
 ## Observação final
 ### Pontos não abordados devido ao ambiente controlado
 
-1- Exceções:
-
+1- Exceções: 
 Ao longo das etapas, tratei possíveis erros, com exceção do carregamento do arquivo, focando na validação da carga.
 
-2- segurança:
+2- segurança: 
 As credenciais de conexão do banco estão expostas no script. Recomenda-se adotar práticas mais seguras, como a criptografia dos dados ou o uso de variáveis de ambiente.
 
-3-Desempenho:
+3-Desempenho: 
 A criação das tabelas poderia ser otimizada com índices apropriados para aprimorar a performance das consultas.
 
-4-Testes Unitários
+4-Testes Unitários: 
 Embora tenha validado as etapas, a ausência de testes unitários limita a garantia de robustez. Recomenda-se a implementação de testes para uma validação mais abrangente.
 
 ## Conclusão
